@@ -73,8 +73,7 @@ var langs =
  ['日本語',           ['ja-JP']],
  ['Lingua latīna',   ['la']]];
 
-/*for (var i = 0; i < langs.length; i++) {
-  console.log("test")
+for (var i = 0; i < langs.length; i++) {
   select_language.options[i] = new Option(langs[i][0], i);
 }
 select_language.selectedIndex = 6;
@@ -91,7 +90,7 @@ function updateCountry() {
     select_dialect.options.add(new Option(list[i][1], list[i][0]));
   }
   select_dialect.style.visibility = list[1].length == 1 ? 'hidden' : 'visible';
-}*/
+}
 
 var final_transcript = '';
 var recognizing = false;
@@ -194,6 +193,7 @@ function startButton(event) {
   }
   final_transcript = '';
   recognition.lang = select_dialect.value;
+  console.log(select_dialect.value)
   recognition.start();
   ignore_onend = false;
   final_span.innerHTML = '';
