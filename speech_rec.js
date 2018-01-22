@@ -193,6 +193,7 @@ function startButton(event) {
   }
   final_transcript = '';
   recognition.lang = select_dialect.value;
+  console.log(select_dialect.value)
   recognition.start();
   ignore_onend = false;
   final_span.innerHTML = '';
