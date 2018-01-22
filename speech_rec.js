@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 });
 
-var langs =
+/*var langs =
 [['Afrikaans',       ['af-ZA']],
  ['Bahasa Indonesia',['id-ID']],
  ['Bahasa Melayu',   ['ms-MY']],
@@ -71,7 +71,7 @@ var langs =
                      ['cmn-Hant-TW', '中文 (台灣)'],
                      ['yue-Hant-HK', '粵語 (香港)']],
  ['日本語',           ['ja-JP']],
- ['Lingua latīna',   ['la']]];
+ ['Lingua latīna',   ['la']]];*/
 
 var final_transcript = '';
 var recognizing = false;
