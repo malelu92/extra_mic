@@ -3,17 +3,7 @@
   }
 
   a {
-    color:#00f;
-  }
-  a:link {
-    color:#000;
-    text-decoration: none;
-  }
-  a:visited {
-    color:#000;
-  }
-  a:hover {
-    color:#33F;
+    color:pink;
   }
   /*.button {
     background: -webkit-linear-gradient(top,#008dfd 0,#0370ea 100%);
@@ -50,6 +40,7 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
   .butt {
@@ -116,6 +107,7 @@ input[type=text], select {
     text-align: left;
     min-height: 150px;
     width:60%;
+    margin: 0 auto;
   }
   #start_button {
     border: 0;
