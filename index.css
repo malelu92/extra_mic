@@ -20,7 +20,7 @@
     letter-spacing: normal;
   }*/
 
-  button {
+  /*button.click {
   background-color: black;
   border: none;
   border-radius: 13px;
@@ -30,7 +30,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 15px 32px;
-  text-align: center; }
+  text-align: center; }*/
 
 input[type=text], select {
     width: 100%;
@@ -120,8 +120,8 @@ input[type=text], select {
   }
 
   #start_img {
-        height: 4%;
-    width: 4%;
+        height: 5%;
+    width: 5%;
     float: right;
   }
 
