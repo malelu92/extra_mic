@@ -11,7 +11,7 @@
   a:hover {
     color:#33F;
   }
-  /*.button {
+  .button {
     background: -webkit-linear-gradient(top,#008dfd 0,#0370ea 100%);
     border: 1px solid #076bd2;
     border-radius: 3px;
@@ -24,7 +24,7 @@
     text-align: center;
     text-shadow: 1px 1px 1px #076bd2;
     letter-spacing: normal;
-  }*/
+  }
   .center {
     padding: 10px;
     text-align: center;
@@ -41,12 +41,12 @@
   .interim {
     color: gray;
   }
-  /*.info {
+  .info {
     font-size: 14px;
     text-align: center;
     color: #777;
     display: none;
-  }*/
+  }
   .right {
     float: right;
   }
@@ -61,12 +61,12 @@
     font-size: 40px;
     font-weight: 300;
   }
-  /*#info {
+  #info {
     font-size: 20px;
     text-align: center;
     color: #777;
     visibility: hidden;
-  }*/
+  }
   #results {
     font-size: 14px;
     font-weight: bold;
@@ -75,11 +75,11 @@
     text-align: left;
     min-height: 150px;
   }
-  /*#start_button {
+  #start_button {
     border: 0;
     background-color:transparent;
     padding: 0;
-  }*/
+  }
 
   .title {
     background-color: #f6f6f6;
@@ -89,66 +89,3 @@
     height: 4%;
     width: 4%;
   }
-
-
-
-
-
-
-  html, body {
-   height: 100%;margin: 0; 
-   background: radial-gradient(circle farthest-corner at center, #fff 0%, #aaa 100%);
-} 
-body { padding: 32px }
-
-#info {
-    font-size: 20px;
-    }
-    #div_start {
-    float: right;
-    }
-    #headline {
-    text-decoration: none
-    }
-    #results {
-    font-size: 14px;
-    font-weight: bold;
-    border: 1px solid #ddd;
-    padding: 15px;
-    text-align: left;
-    min-height: 150px;
-    background: #fff;
-    }
-    #start_button {
-    border: 0;
-    background-color:transparent;
-    padding: 0;
-    }
-    .interim {
-    color: gray;
-    }
-    .final {
-    color: black;
-    padding-right: 3px;
-    }
-    .button {
-    display: none;
-    }
-    .marquee {
-    margin: 20px auto;
-    }
-
-    #buttons {
-    margin: 10px 0;
-    position: relative;
-    top: -50px;
-    }
-
-    #copy {
-    margin-top: 20px;
-    }
-
-    #copy > div {
-    display: none;
-    margin: 0 70px;
-    }
