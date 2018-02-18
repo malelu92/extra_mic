@@ -11,7 +11,7 @@
   a:hover {
     color:#33F;
   }
-  .button {
+  /*.button {
     background: -webkit-linear-gradient(top,#008dfd 0,#0370ea 100%);
     border: 1px solid #076bd2;
     border-radius: 3px;
@@ -24,7 +24,20 @@
     text-align: center;
     text-shadow: 1px 1px 1px #076bd2;
     letter-spacing: normal;
-  }
+  }*/
+
+  button {
+  background-color: black;
+  border: none;
+  border-radius: 13px;
+  color: white;
+  display: block;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 32px;
+  text-align: center; }
+  
   .center {
     padding: 10px;
     text-align: center;
