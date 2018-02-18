@@ -117,11 +117,13 @@ input[type=text], select {
     border: 0;
     background-color:transparent;
     padding: 0;
+    width: 300px;
+    float: right;
   }
 
   #start_img {
-        height: 5%;
-    width: 5%;
+        height: 7%;
+    width: 7%;
     float: right;
   }
 
