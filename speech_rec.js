@@ -187,7 +187,7 @@ function clickLink(text) {
       for(var i=0; i<stringpieces.length;i++) {
         if(stringpieces[i] == $(this).attr("value") && $(this).attr("type") == "button") {
           if(stringpieces[i] == "soccer") {
-            goFluminense();
+            goYahoo();
           }
           valid_command = true;
         }
@@ -222,8 +222,8 @@ function enterText(text) {
   $(clicked).val(text);
 }
 
-function goFluminense() {
-  window.location.href = "http://www.fluminense.com.br/site/";
+function goYahoo() {
+  window.location.href = "https://www.yahoo.com/";
 }
 
 function goTennis() {
