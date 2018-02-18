@@ -95,7 +95,10 @@
   }
 
   .title {
-    background-color: #f6f6f6;
+  background-color: #f6f6f6;
+  height: 300px;
+  line-height: 300px;
+  text-align: center; 
   }
 
     .mic-img {
