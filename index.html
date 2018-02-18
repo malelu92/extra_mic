@@ -7,7 +7,9 @@
   <script src="jquery.min.js"></script>
   </head>
 <body>
-<h1 class="center" id="headline">Web Browsing By Voice</h1>
+<div id="title">
+  <h1 class="center" id="headline">Web Browsing By Voice</h1>
+</div>
 <div id="info">
   <p id="info_start">Click on the microphone icon and begin speaking.</p>
   <p id="info_speak_now">Speak now.</p>
@@ -37,12 +39,15 @@
 </div>
 
 
-  text:<br>
+  <p id="error"></p>
+  <p>Select a text box and speak enter text command:</p>
+  <br>
+  <br>
   <input id="text_input" type="text" name="text" value="">
+  <br>
   <br>
   <input id="text_input2" type="text" name="text" value="">
   <br>
-  <p id="error"></p>
   <input type="button" value="soccer" onclick="goFluminense()"><br>
   <button onclick="goTennis()">tennis</button><br>
   <a href="http://www.google.com">Google</a><br>
