@@ -82,9 +82,10 @@ input[type=text], select {
     display: none;
   }
 
-  .right {
+  /*.right {
     float: right;
-  }
+    width: 30%;
+  }*/
   .sidebyside {
     display: inline-block;
     width: 45%;
@@ -116,6 +117,12 @@ input[type=text], select {
     border: 0;
     background-color:transparent;
     padding: 0;
+  }
+
+  #start_img {
+        height: 4%;
+    width: 4%;
+    float: right;
   }
 
   #title {
