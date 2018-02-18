@@ -37,7 +37,7 @@
   margin-right: auto;
   padding: 15px 32px;
   text-align: center; }
-  
+
   .center {
     padding: 10px;
     text-align: center;
@@ -94,7 +94,7 @@
     padding: 0;
   }
 
-  .title {
+  #title {
   background-color: #f6f6f6;
   height: 300px;
   line-height: 300px;
