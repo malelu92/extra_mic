@@ -1,10 +1,14 @@
   * {
     font-family: Verdana, Arial, sans-serif;
   }
-  /*a:link {
+
+  a {
     color:#00f;
+  }
+  a:link {
+    color:#000;
     text-decoration: none;
-  }*/
+  }
   a:visited {
     color:#000;
   }
@@ -82,10 +86,6 @@ input[type=text], select {
     text-align: center;
     color: #777;
     display: none;
-  }
-
-  .link {
-    color:#00f;
   }
   
   .right {
